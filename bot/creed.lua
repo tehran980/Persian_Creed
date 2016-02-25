@@ -209,7 +209,6 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    "Boobs",
     "Feedback",
     "lock_join",
     "antilink",
@@ -234,23 +233,18 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {93367845},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[Maxbot 2.3
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   ߔࠀ   our admins are : 
-   ߔࠀ   @sorblack_creed
-   ߔࠀ   @amircc_creed
-   ߔࠀ   @aria_creed
+    ‼️ this bot is made by : @fakeadmin
    〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
-   !feedback (your ideas and messages)
+   ارسال نظر (your ideas and messages)
 ]],
     help_text_realm = [[
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -360,14 +354,9 @@ function create_config( )
 ------------------------------------------------------------------------------------------------------------
 
 
-کانال ما : @Pro_Programing
 
-اعضای اصلی ما : 
+@fakeadmin [سازنده]
 
-@Arsalan_Sahel  [سازنده]
-@Bad00boy_Creed [عضو اصلی ]
-@Creed_aria [عضو اصلی]
-@AmirCc_CreeD [عضو اصلی]
 ]],
     help_text = [[
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -477,14 +466,7 @@ function create_config( )
 ------------------------------------------------------------------------------------------------------------
  نکته !!!! :   با دستور *اخراجم کن* میتوانید از گروه بروید . 
 ------------------------------------------------------------------------------------------------------------
-کانال ما : @Pro_Programing
 
-اعضای اصلی ما : 
-
-@Arsalan_Sahel  [سازنده]
-@Bad00boy_Creed [عضو اصلی ]
-@Creed_aria [عضو اصلی]
-@AmirCc_CreeD [عضو اصلی]
 ]],
   }
   serialize_to_file(config, './data/config.lua')
