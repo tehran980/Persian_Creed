@@ -232,6 +232,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban"
+    "nerkh"
     },
     sudo_users = {93367845},--Sudo users
     disabled_channels = {},
