@@ -82,7 +82,7 @@ end
 
 return {
   description = "Says help to someone", 
-  usage = "get nerkhgroup to by sending نرخ ",
+  usage = "get nerkhgroup to by sending help ",
   patterns = {
     "^help$",
     "^Help",
